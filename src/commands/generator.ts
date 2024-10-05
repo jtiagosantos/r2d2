@@ -74,7 +74,6 @@ module.exports = {
           print.error(error.message);
         });
       } else {
-        console.log(error);
         print.error('🤖 unexpected error, try again');
       }
     }

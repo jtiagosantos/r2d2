@@ -12,7 +12,7 @@ const command: GluegunCommand = {
 
     print.info('🤖 How can I help you?');
 
-    printCommands(toolbox, ['generator']);
+    printCommands(toolbox, ['generator', 'shortenurl']);
   },
 };
 
